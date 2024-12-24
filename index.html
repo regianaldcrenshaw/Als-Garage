@@ -63,6 +63,10 @@
             height: 150px;
             margin-top: 10px;
         }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
@@ -230,4 +234,7 @@ function clearOrder() {
     document.querySelectorAll('input[type="number"]').forEach(input => input.value = 0);
 }
 
-// Initialize the
+// Initialize the item list on page load
+generateItemList();
+</script>
+
